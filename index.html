@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mi Música: Hugoc</title>
+    <!--hoja de estilos-->
+    <link rel="stylesheet" href="./styles/estilo.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/faviconverde.ico" type="image/x-icon">
+    <!--javascript-->
+    <script src="./javascript/javascript.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#hero" class="active">Home</a>
+                <a href="#introduccion">Introducción</a>
+                <a href="#history">Historia</a>
+                <a href="#gallery">Galería</a>
+                <a href="#canciones">Canciones</a>
+                <a href="#redes">Redes</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        
+
+        <section id="hero">
+            <h1>MI MÚSICA🎵</h1>
+            <a href="#introduccion"><p id="calltoaction">Come with us!</p></a>
+
+            <a href="#hero"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </section>
+
+        <section id="introduccion">
+            <h1> WHO'S HUGOC ?</h1>
+            <img id="unicoletra" src="./images/Snapshot_35.png" alt="unicoletra">
+            <p>Hugo Sánchez González, el marbellí de 18 años, es un estudiante del IES Campanillas, perteneciente a el GSFP Desarrollo de Aplicaciones Web, que hace música en su tiempo libre.</p>
+            <p>Entre varias de sus canciones encontramos diversos estilos de música, pero sus estilos principales son el Trap y Rap.</p>
+            <p>Cuenta con una decena de canciones, la mayoría distribuidas en todas las plataformas digitales como Spotify, YouTube, TikTok... y con un álbum a la espera de más.</p>
+            <p>What are you waiting for?! Pasa a descubrir mi historia, everybody is welcome!</p>
+        </section>
+        
+        <section id="history">
+            <h1>HISTORIA</h1>
+            <div class="mitad" id="izqda">
+                <img id="fotocuadrada" src="./images/hugopequenio.png" alt="subimoselnivel">
+                <p>Fotografía de Hugo de pequeño rapeando una de sus canciones</p>
+            </div>
+            <div class="mitad" id="drcha">
+                <p>Hugoc ha estado toda su vida escuchando todo tipo de música gracias a sus padres, de Pop hasta Hip Hop, pasando por Jazz, Rock & Roll...Y a ello debe su gran importancia de la música en su vida.</p>
+                <p>Desde muy pequeño, le gustaba escribir en su libreta la letra de sus canciones favoritas, hasta que un día se le ocurrió modificar la letra de una de una de ellas, incluso terminó haciendo la suya propia, llamada 'el rap de la vida'.</p>
+                <p>Interesting? Ahora que he llamado tu atención, ¿qué te parece ver mi contenido? ;)</p>
+            </div>
+            <div class="resetear" id="para quitar float left"></div>
+        </section>
+
+        <section id="gallery">
+            <h1>LINKED GALLERY</h1>
+            <p>¿Cuál quieres escuchar? ¡¡Cliquea en ella para escucharla en YouTube!!</p>
+            <div class="fotos">
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/JAhkDA1ewrY"><img src="./images/pikanteiiportada.jpg" alt="pikante2"></a>
+                    <h2>Pikante II</h2>
+                </div>
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/ocLkFwOG9zg?t=35"><img src="./images/unicoportada.png" alt="unico"></a>
+                    <h2>Único</h2>
+                </div>
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/VVtRK6V-t68"><img src="./images/sigoescribiendoportadacuadrada.png" alt="sigoescribiendo"></a>
+                    <h2>Sigo Escribiendo</h2>
+                </div>
+                <div class="foto">
+                    <a href="https://youtu.be/2CPH3QrzDpI"><img src="./images/portadaparrafadas.png" alt="parrafadas"></a>
+                    <h2>Parrafadas</h2>
+                </div>
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/i3rZVyy8Xyk"><img src="./images/maspikante.png" alt="pikante"></a>
+                    <h2>Pikante</h2>
+                </div>
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/zokbJ1sKOkk"><img src="./images/derrochando.png" alt="derrochando"></a>
+                    <h2>Derrochando</h2>
+                </div>
+                <div class="foto">
+                    <a target="_blank" href="https://youtu.be/F7YiyFtekl4"><img src="./images/subimoselnivelcuadrado.jpg" alt="subimoselnivell"></a>
+                    <h2>Subimos el nivel</h2>
+                </div>
+                <div class="foto">
+                    <img src="./images/frizao.jpg" alt="frizao">
+                    <h2>(not released)</h2>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="canciones">
+            <h1>SONGS</h1>
+            <p id="text">¿Las has escuchado ya? ¿Qué te han parecido? Aquí puedes ver los detalles de cada una de ellas, ¡pasa a ver la que te interese!</p>
+            
+            <!--snippet acordion para añadir contenido que se muestre a voluntad desplegándose-->
+            <button class="accordion">1. Pikante</button>
+            <div class="panel">
+                <p>🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️</p>
+                <li>Sacada hace dos años, el 9 de diciembre de 2019.</li>
+                <li>Fue grabada en 'Plaza del Mar' en Marbella.</li>
+                <li>El estilo de música es Trap.</li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.911494547857!2d-4.900492085368746!3d36.50799849179407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7328003e1c9025%3A0xdf61439a8ec3ddb4!2sPlaza%20del%20Mar%20Marbella%20S.L.U.!5e0!3m2!1ses!2ses!4v1638966100012!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <li>Sólo está <a target="_blank" href="https://youtu.be/i3rZVyy8Xyk">disponible en YouTube</a>, ya que por esos tiempos no distribuía la música en todas las plataformas digitales, así que YouTube es el único lugar donde puedes escucharla.</li>
+                <p>Es la primera que podemos encontrar en el canal (la más antigua), pero no significa que sea la primera, ya que antes estuvieron canciones como 'Bucle', 'Surreal', etc, que están en oculto para recordar los inicios.</p>
+                <p>🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️</p>
+            </div>
+
+            <button class="accordion">2. Derrochando</button>
+            <div class="panel">
+                <p>💧💧💧💧💧💧💧💧💧💧💧💧</p>
+                <li>Sacada 2 meses después de Pikante, concretamente el 24 de febrero de 2020.</li>
+                <li>Es un Lyric Video, por lo tanto, no tiene videoclip.</li>
+                <li>De estilo de música Trap.</li>
+                <li>Sólo <a target="_blank" href="https://youtu.be/zokbJ1sKOkk">disponible en Youtube.</a></li>
+                <p>💧💧💧💧💧💧💧💧💧💧💧💧</p>
+            </div>
+
+            <button class="accordion">3. Sigo Escribiendo</button>
+            <div class="panel">
+                <p>✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️</p>
+                <li>Disponible el 22 de junio de 2020 en TODAS LAS PLATAFORMAS DIGITALES.</li>
+                <li>Es un lyric video con distintas tomas de escenas aleatorias.</li>
+                <li>El estilo de música es rap / hip hop.</li>
+                <p></p>
+                <lu>Podemos encontrarla en:</lu>
+                <li><a target="_blank" href="https://open.spotify.com/track/54gL1rtOvrwnvykwkxmCCF?si=b13fec1521fb4909">Spotify</a></li>
+                <li><a target="_blank" href="https://youtu.be/VVtRK6V-t68">YouTube</a></li>
+                <li>iTunes, Tik Tok, Instagram Stories, Deezer...</li>
+                <p>✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️</p>
+            </div>
+
+            <button class="accordion">4. Subimos el nivel</button>
+            <div class="panel">
+                <p>⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️</p>
+                <p>Meses después, tras una serie de problemas personales, sale por fin 'Subimos el nivel', volviendo con ganas de nuevo a la música.</p>
+                <li>El estilo de música sería el favorito de Hugo, Trap.</li>
+                <li>Debido a problemas con los derechos de la instrumental de la canción, sólo pudo estar <a href="https://youtu.be/F7YiyFtekl4">disponible en YouTube.</a></li>
+                <li>Es videoclip grabado en diferentes lugares de San Pedro.</li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12831.626162856319!2d-4.985960075237522!3d36.483973332791365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd732a221364d505%3A0x94b740e2b5975c01!2sSan%20Pedro%20de%20Alcantara%2C%2029670%20Marbella%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1639040585161!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️</p>
+            </div>
+
+            <button class="accordion">5. Parrafadas</button>
+            <div class="panel">
+                <img src="./images/alexsuarez.png" alt="">
+                <p>Primera colaboración de Hugoc con <a href="https://www.youtube.com/channel/UCKRwvNI7DZGEf79x9ByFOdA">Blackpanther (Alex Suarez)</a>.</p>
+                <li>Sacada terminando el año, el 18 de diciembre de 2020, en TODAS LAS PLATAFORMAS DIGITALES.</li>
+                <li>Es un lyric video con portada y gif de fondo.</li>
+                <li>El estilo de música es rap / hip hop.</li>
+                <p>Podemos encontrarla en:</p>
+                <li><a target="_blank" href="https://open.spotify.com/track/1N4gdtNd129IFBqYX9fQVo?si=5b33d95ac8a4420c">Spotify</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=2CPH3QrzDpI">YouTube</a></li>
+                <li>iTunes, Tik Tok, Instagram Stories, Deezer...</li>
+                <p>🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️</p>
+            </div>
+
+            <button class="accordion">6. Pikante II</button>
+            <div class="panel">
+                <p>🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣</p>
+                <p>Hugoc quería hacer un remix de 'Pikante', pero se terminó decidiendo por hacer una nueva versión desde cero pero manteniendo la esencia de Pikante, aunque mejorada.</p>
+                <li>Primera canción de 2021, sacada el 28 de mayo, en todas las plataformas digitales.</li>
+                <li>Es videoclip rabado de una toma, es decir, un 'One Shot'.</li>
+                <li>El estilo de música es Trap.</li>
+                <p>Podemos encontrarla en:</p>
+                <li><a target="_blank" href="https://open.spotify.com/track/3pZkL3gsbxMXN7WthBKgAe?si=169d7527518f4757">Spotify</a></li>
+                <li><a target="_blank" href="https://youtu.be/JAhkDA1ewrY">YouTube</a></li>
+                <li>iTunes, Tik Tok, Instagram Stories, Deezer...</li>
+                <p>🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣</p>
+            </div>
+
+            <button class="accordion">7. Único</button>
+            <div class="panel">
+                <p> 🙏  🙏  🙏  🙏  🙏  🙏  🙏  🙏 </p>
+                <li>Última canción, la más reciente, concretamente el 23 de agosto.</li>
+                <li>Es videoclip grabado en 'Las Chapas'.</li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51310.29819298174!2d-4.861932124296166!3d36.508429532333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd73275b94d3a405%3A0xcadae2b844915277!2sLas%20Chapas%2C%20Marbella%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1639040546980!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <li>El estilo de música es Trap.</li>
+                <p>Podemos encontrarla en:</p>
+                <li><a target="_blank" href="https://open.spotify.com/track/4HZdhCP9iSk402a3sEsb1M?si=dff1be4b11754ac0">Spotify</a></li>
+                <li><a target="_blank" href="https://youtu.be/ocLkFwOG9zg?t=35">YouTube</a></li>
+                <li>iTunes, Tik Tok, Instagram Stories, Deezer...</li>
+                <p> 🙏  🙏  🙏  🙏  🙏  🙏  🙏  🙏 </p>
+            </div>
+
+            <button class="accordion">8. Frizao</button>
+            <div class="panel">
+                <p>'Frizao'❄️, colaboración INTERNACIONAL con dos argentinos, <a href="https://www.youtube.com/c/TiziEscuti">Tizi Escuti</a> y <a href="https://www.youtube.com/channel/UCpX31RVquCVJ0lJnYJEn5Nw">San Porcel</a>, estará próximamente OUT in all plataforms...pero por ahora toca esperar</p>
+                
+            </div>
+        </section>
+
+        <section id="redes">
+            <h1>REDES</h1>
+            <div class="cuartoREDES">
+                <a target="_blank" href="https://www.youtube.com/channel/UCtM2m0eq-vNHtGOwG5rMioQ"><img src="./images/youtubelogo.png" alt="canalyt"></a>
+            </div>
+            <div class="cuartoREDES">
+                <a target="_blank" href="https://www.instagram.com/im.hugoc/?hl=es"><img src="./images/instagram.png" alt="instagram"></a>
+            </div>
+            <div class="cuartoREDES">
+                <a target="_blank" href="https://open.spotify.com/artist/5R0VuFhHJODyflUF5PYsuV?si=9PEdxs1QT2qpxxg8OgGgoA"><img src="./images/Spotify.png" alt="spotify"></a>
+            </div>
+            <div class="cuartoREDES">
+                <a target="_blank" href="https://www.tiktok.com/@im.hugoc"><img src="./images/tiktok.png" alt="tiktok"></a>
+            </div>
+            <p>Enlaces a mi canal de YouTube, perfil de artista de Spotify, perfiles de Instagram, y Tik Tok. </p>
+        </section>
+
+        <footer class="piepagina">
+            <div class="grupo1">
+                <div class="box">
+                    <figure>
+                        <a href="#"><img src="./images/hugocletrasraya.png" alt="logo"></a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>DERECHOS Y LICENCIAS</h2>
+                    <p><a target="_blank" href="https://copyright.es/" class="fa fa-copyright">2003-2021, Hugoc, Inc. o sus filiales</a></p>
+                    <div class="redsocial">
+                        <p><a target="_blank" href="https://www.spotify.com/es/legal/copyright-policy/" class="fa fa-spotify"> Licencia de Spotify</a></p>
+                        <p><a target="_blank" href="https://www.youtube.com/howyoutubeworks/policies/copyright/" class="fa fa-youtube"> Licencia de YouTube</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p><a href ="mailto:hugo.sanchez.fp@iescampanillas.com">📧Correo de contacto</a></p>
+                    <p><a href="tel:+34722639496">📞Teléfono de contacto</a></p>
+                    <p><a href="https://github.com/hugosanchezg?tab=repositories" class="fa fa-github"> GitHub</a></p>
+
+                </div>
+            </div>
+
+        </footer>
+        
+        
+    </div>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }</script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+        </script>
+</body>
+
+</html>
