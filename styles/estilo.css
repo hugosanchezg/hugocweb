@@ -1,0 +1,354 @@
+/*ESTILO GENERAL*/
+@font-face {
+        font-family:monument;
+        src: url("../fonts/MonumentExtended-Regular.otf");}
+
+
+html {scroll-behavior: smooth;}
+
+body{background-color: black;
+        margin:0;
+        padding:0;}
+
+/*ESTILO FOOTER*/
+.piepagina{color: rgb(255, 255, 255);
+        width: 100%;
+        border:1px solid rgb(223, 22, 22);
+        border-radius: 1%;}
+
+.piepagina .grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+}
+
+.piepagina .grupo1 .box img{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.piepagina .grupo1 .box figure img{
+        width: 250px;
+}
+
+.piepagina .grupo1 .box h2{
+        color: rgb(223, 22, 22);
+        margin-bottom: 25px;
+        font-size: 20px;
+}
+
+.piepagina .grupo1 .box a{
+        color:#d1baba;
+        margin-bottom: 10px;
+}
+
+.piepagina .grupo1 .box p{
+        color:#d1baba;
+        margin-bottom: 10px;
+        font-family: awesome;
+        font-size: 0.8em;
+}
+/*ESTILO GENERAL DEL CONTAINER*/
+#container{
+        padding: 20px;
+        /*background-color: #fff;*/
+        margin:auto;
+        color: yellowgreen;
+        font-family: monospace;
+        font-size: 1.35em;}
+
+/*ESTILO DEL HERO*/
+#hero{background-image: url("../images/studio.jpg");
+        background-size: cover;
+        height: 95vh;
+        position: relative;
+        border-bottom: 3px solid yellowgreen;}
+
+#hero h1{position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family:monument;
+        text-shadow: 7px 7px 5px rgb(0, 0, 0);
+        color: white;}
+
+#calltoaction{position: absolute;
+        bottom:40px;
+        left:40px;
+        padding:5px;
+        background-color: #176635;
+        border-radius: 15px;
+        font-family: monospace;
+        font-size: medium;
+        text-transform: capitalize;}
+#calltoaction:hover{background-color: #1caa3b;
+                cursor:pointer;}
+
+/*ESTILO DE LA FLECHA PARA SUBIR A HOME*/
+.fa-arrow-up{position:fixed;
+        bottom:20px;
+        right: 20px;
+        border:1px solid yellowgreen;
+        }
+
+/*ESTILO DE LA SECCIÓN INTRODUCCIÓN*/
+#introduccion{font-family:monospace;
+        color: rgb(255, 255, 255);
+        padding:5%;}
+
+#introduccion h1{text-align: center;
+                color:yellowgreen;
+                font-size: 2em;
+                font-family: monument;}
+
+#unicoletra{width:50%;
+        float:right;}
+
+#introduccion p:first-letter{font-size: 2em;
+                        color:yellowgreen;}
+                        
+/*ESTILO DE LA SECCIÓN HISTORY*/
+#history{font-family:monospace;
+        color: rgb(255, 255, 255);
+        padding:5%;}
+                                        
+#history h1{text-align: center;
+        color:yellowgreen;
+        font-size: 2em;
+        font-family: monument;}
+
+#history p:first-letter{font-size: 2em;
+                        color:yellowgreen;}
+
+/*ESTILO DE LA SECCIÓN GALLERY*/
+#gallery{
+        color: rgb(255, 255, 255);
+        font-family: monument;
+        font-size: 0.5em;
+        padding:0 1%;}
+                
+#gallery h1{text-align: center;
+        color:yellowgreen;
+        font-size: 4em;
+        font-family: monument;}
+
+#gallery iframe{float: right;
+                display: block;}
+
+#gallery p{text-align: center;
+        font-family: monospace;
+        font-size: 2em;}
+
+/*ESTILO FOTOS DE LA GALLERY*/
+.foto{
+        box-sizing: border-box;
+        text-align: center;
+        border:1px solid #176635;
+        border-radius: 3%;
+        padding: 15px;
+        width: 95%;
+        height: 95%;}
+
+.foto img{width: 70%;
+        opacity: 0.65;}
+
+.foto img:hover{cursor:pointer;
+        opacity: 1;}
+
+.foto h2{font-family: monument;}
+
+.fotos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+}
+
+/*ESTILO DE LA SECCIÓN CANCIONES*/
+#canciones{font-family:monospace;
+        color: rgb(255, 255, 255);
+        padding:5%;
+        }
+                
+#canciones h1{text-align: center;
+        color:yellowgreen;
+        font-size: 2em;
+        font-family: monument;}
+
+#text{text-align: center;}
+
+.panel{padding-top: 10px;}
+
+/*ESTILO DE LA SECCIÓN REDES*/
+#redes{font-family:monospace;
+        color: rgb(255, 255, 255);
+        padding:5%;
+        text-align: center;}
+                
+#redes h1{text-align: center;
+        color:yellowgreen;
+        font-size: 2em;
+        font-family: monument;}
+
+
+/*ESTILO FOOTER*/
+.medio{width: 48%;
+        float:left;
+        box-sizing: border-box;
+        text-align: center; 
+        background-color: #176635;}
+
+/*ESTILO DE LA GALERÍA DE LA SECCIÓN REDES*/
+.cuartoREDES{width: 23%;
+        margin: 1%;
+        padding: 2%;
+        float:left;
+        box-sizing: border-box;
+        text-align: center;}
+
+.cuartoREDES img{width: 100%;
+        opacity: 0.65;}
+
+.cuartoREDES img:hover{cursor:pointer;
+        opacity: 1;}
+
+
+/*ESTILO SNIPPET ACORDEON*/
+.accordion {
+        background-color: #eee;
+        color: #176635;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        font-family: monument;}
+
+.active, .accordion:hover {
+        background-color: yellowgreen;}
+
+.panel {
+        padding: 0 18px;
+        background-color: rgb(0, 0, 0);
+        display: none;
+        overflow: hidden;
+        font-family: monospace;}
+
+h1, p{
+        color:white;
+}
+
+/*estilo del nav*/
+nav{position: sticky;
+        top:0;
+        z-index:99;
+        opacity:0.7;}
+.topnav {
+        overflow: hidden;
+        background-color: #333;
+        }
+
+a{color: yellowgreen;
+        text-decoration: none;}
+
+.topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;}
+
+.topnav a:hover {
+        background-color: #ddd;
+        color: black;}
+
+.topnav a.active {
+        background-color: #176635;
+        color: white;}
+
+.topnav .icon {
+        display: none;}
+
+
+/*ESTILO DE LA SECCIÓN A DOS COLUMNAS*/
+
+#izqda{text-align:center;}
+
+#fotocuadrada{width:50%;
+        display: block;
+        margin:auto;}
+
+
+/*#drcha{}*/
+
+.mitad{width: 50%;
+        float:left;
+        box-sizing: border-box;
+        padding: 2%;
+        }
+
+.resetear{clear:both;}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:1000px){
+        #unicoletra, .mitad{width: 100%;}}
+
+@media screen and (max-width: 1100px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+        float: right;
+        display: block;
+        }
+
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        }
+        .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        }
+        .fotos {
+                grid-template-columns: repeat(2, 1fr);
+        }
+}
+
+
+@media screen and (max-width:500px){
+        .fotos {
+                grid-template-columns: repeat(1, 1fr);
+        }
+
+}
+
+@media screen and (max-width:800px){
+        .piepagina .grupo1{
+                width: 100%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap:30px;
+                padding: 35px 0px;
+                text-align: center;
+        }
+        
+        .piepagina .grupo1 .box img{
+                width: 90%;
+                height: 90%;
+                display:block;
+                
+        }
+
+}
+
+
